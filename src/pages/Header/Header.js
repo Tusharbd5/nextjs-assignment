@@ -1,18 +1,19 @@
 import { useState } from "react"
+import Banner from "../Banner/Banner"
 function MobileNav({ open, setOpen }) {
 
     return (
         <section>
             <div className="flex flex-row items-center justify-around long-menu ">
                 <div>
-                    <a className="font-bold my-4" href="#" >
+                    <a className="font-bold my-4" href="http://localhost:3000" >
                         <span className="logo ">Gym</span>
                         baran
                     </a>
                 </div>
                 <div className="flex gap-8 my-4 justify-center items-center">
 
-                    <a className="font-bold hover:text-red-500 my-4" href="#" >
+                    <a className="font-bold text-red-500 my-4" href="#" >
                         Home
                     </a>
                     <a className="font-bold my-4 hover:text-red-500" href="#" >
@@ -29,19 +30,19 @@ function MobileNav({ open, setOpen }) {
             </div>
 
 
-            <div className={`items absolute top-0 left-0 h-screen w-screen  transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter `}>
+            <div className={`items absolute top-0 right-0 p-5 rounded-3xl  bg-white  transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter z-10`}>
 
-                <div className="flex flex-col justify-center items-center mt-10">
-                    <a className="text-2xl font-bold text-red-500 my-4" href="#" >
+                <div className="flex flex-col justify-center items-center mt-6">
+                    <a className="text-2xl font-light text-red-500 my-3" href="#" >
                         Home
                     </a>
-                    <a className="text-2xl font-bold my-4 hover:text-red-500" href="#" >
+                    <a className="text-2xl font-light my-3 hover:text-red-500" href="#" >
                         Program
                     </a>
-                    <a className="text-2xl font-bold my-4 hover:text-red-500" href="#" >
+                    <a className="text-2xl font-light my-3 hover:text-red-500" href="#" >
                         Blog
                     </a>
-                    <a className="text-2xl font-bold my-4 hover:text-red-500" href="#" >
+                    <a className="text-2xl font-light my-3 hover:text-red-500" href="#" >
                         About Us
                     </a>
                     <button className="login-btn hover:bg-blue-700 text-white">Login</button>
@@ -77,6 +78,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
+            <Banner></Banner>
         </nav>
     )
 }
