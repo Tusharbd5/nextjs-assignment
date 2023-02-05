@@ -58,7 +58,7 @@ export default function Banner() {
 
                                 <Image className='bottom-0 absolute lg:left-48' src={ellipse} alt='Ellipse'></Image>
 
-                                <Image className='workout3 absolute -left-12 lg:left-20 lg:-bottom-20 bottom-0' src={Workout3} alt='workout3'></Image>
+                                <Image className='workout3 absolute -left-12 lg:left-20 lg:-bottom-20 bottom-0 z-40' src={Workout3} alt='workout3'></Image>
 
                                 <Image className='workout2 absolute -right-2 lg:right-52 z-30 -top-10' src={Workout2} alt='Workout2'></Image>
                             </div>
@@ -72,13 +72,13 @@ export default function Banner() {
                         </div>
 
                         {/* Information portion */}
-                        <div className='banner-work-div lg:-top-10 -top-10 absolute p-2 rounded-3xl shadow-2xl bg-white lg:left-52 -left-10 z-30'>
+                        <div className='banner-work-div lg:-top-10 -top-10 absolute p-2 rounded-3xl shadow-2xl bg-white lg:left-52 -left-10 z-30 flex justify-center'>
                             <div className='flex items-center'>
                                 <Image className='workout1' src={Workout1} height='60' width='60' alt='workout'></Image>
 
                                 <div>
-                                    <h1 className='font-bold font-poppins text-base'>150+</h1>
-                                    <p className='font-poppins text-base'>Members</p>
+                                    <h1 className='font-bold font-poppins text-xs lg:text-base'>150+</h1>
+                                    <p className='font-poppins text-xs'>Members</p>
                                 </div>
                             </div>
                         </div>
