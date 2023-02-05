@@ -87,8 +87,8 @@ export default function Banner() {
                             <Image className='info-img' src={info} height='66' width='66' alt='workout'></Image>
 
                             <div className='mt-3'>
-                                <h2 className='font-poppins text-base font-bold'>Zaqky Simorang</h2>
-                                <p className='font-poppins text-base'>Trainer</p>
+                                <h2 className='font-poppins text-xs lg:text-base font-bold'>Zaqky Simorang</h2>
+                                <p className='font-poppins text-xs'>Trainer</p>
                             </div>
                         </div>
 
