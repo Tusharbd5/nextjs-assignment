@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @font-face {
   font-family: 'Sporting-bold';
@@ -19,6 +20,17 @@ body {
   font-family: Sporting-regular;
 
   background-image: linear-gradient(180deg, hsla(0, 100%, 100%, 0.63), hsla(278, 89%, 89%, 0.411), hsla(0, 0%, 100%, 0.685));
+}
+
+p {
+  color: #262524;
+
+  opacity: 0.6;
+}
+
+.learn-more {
+  color: #FFFFFF;
+  opacity: 0.5;
 }
 
 a {
@@ -60,6 +72,7 @@ a {
   width: 114px;
   border-radius: 10px;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .banner-btn {

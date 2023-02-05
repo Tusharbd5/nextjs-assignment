@@ -27,10 +27,10 @@ export default function LowerBanner() {
                             <span className="poses-ellipse absolute" />
                         </div>
                         <div>
-                            <h2 className='font-bold'>
+                            <h2 className='font-bold font-poppins text-xs lg:text-base'>
                                 800 kall
                             </h2>
-                            <p className="text-zinc-400">Burn fat</p>
+                            <p className="font-poppins text-xs">Burn fat</p>
 
                         </div>
                     </div>
@@ -40,11 +40,11 @@ export default function LowerBanner() {
             <div className="lg:w-1/2 lg:pr-32 lg:ml-28">
                 <h1 className="text-3xl leading-10 mb-7">Best full body <br /> workout to lose fat</h1>
 
-                <p className="text-zinc-400 text-justify">
+                <p className="font-poppins text-base text-justify">
                     Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home.
                 </p>
 
-                <button className='banner-btn flex flex-row items-center justify-center gap-5 mt-12'>Get Started <Image src={Arrow} alt='banner Button'></Image></button>
+                <button className='banner-btn flex flex-row items-center justify-center gap-5 mt-12'><span className="font-poppins text-xs lg:text-base">Get Started </span><Image src={Arrow} alt='banner Button'></Image></button>
             </div>
         </div>
     )

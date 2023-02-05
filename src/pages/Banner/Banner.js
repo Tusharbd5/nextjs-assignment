@@ -20,17 +20,17 @@ export default function Banner() {
         <div className='mt-24'>
             <div className='flex items-center lg:justify-center flex-col lg:flex-row px-10'>
                 <div className='lg:w-1/2 lg:pl-32'>
-                    <h2 className='text-2xl lg:ml-36'>Healthy in side <br></br><span><span className='text-sky-800 font-bold'>fresh</span> out side</span></h2>
+                    <h2 className='text-3xl lg:text-5xl lg:ml-36 leading-10'>Healthy in side <br></br><span><span className='text-sky-800 font-bold'>fresh</span> out side</span></h2>
 
-                    <p className='lg:ml-36 text-justify'>
+                    <p className='lg:ml-36 text-justify mt-6 font-poppins text-base'>
                         Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.
                     </p>
 
                     {/* Banner Button */}
                     <div className='lg:ml-36 mt-10 flex flex-row items-center gap-10'>
-                        <button className='banner-btn flex flex-row items-center justify-evenly'>Get Started <Image src={bannerBtn} alt='banner Button'></Image></button>
+                        <button className='banner-btn flex flex-row items-center justify-evenly '><span className='font-poppins text-xs lg:text-base'>Get Started </span><Image src={bannerBtn} alt='banner Button'></Image></button>
 
-                        <button className='learn-banner-btn flex flex-row items-center justify-evenly'><Image src={playBtn} alt='banner Button 1'></Image> Learn More </button>
+                        <button className='learn-banner-btn flex flex-row items-center justify-evenly'><Image src={playBtn} alt='banner Button 1'></Image> <span className='font-poppins text-xs lg:text-base'>Learn More</span> </button>
                     </div>
 
                     {/* Brands */}
@@ -77,8 +77,8 @@ export default function Banner() {
                                 <Image className='workout1' src={Workout1} height='60' width='60' alt='workout'></Image>
 
                                 <div>
-                                    <h1 className='font-bold'>150+</h1>
-                                    <p>Members</p>
+                                    <h1 className='font-bold font-poppins text-base'>150+</h1>
+                                    <p className='font-poppins text-base'>Members</p>
                                 </div>
                             </div>
                         </div>
@@ -87,8 +87,8 @@ export default function Banner() {
                             <Image className='info-img' src={info} height='66' width='66' alt='workout'></Image>
 
                             <div className='mt-3'>
-                                <p>Zaqky Simorang</p>
-                                <p className='text-gray-400'>Trainer</p>
+                                <h2 className='font-poppins text-base font-bold'>Zaqky Simorang</h2>
+                                <p className='font-poppins text-base'>Trainer</p>
                             </div>
                         </div>
 

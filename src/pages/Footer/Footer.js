@@ -7,7 +7,7 @@ export default function Footer() {
                     <span className="bg-white text-black rounded-md mr-2">Gym</span>
                     baran
                 </a>
-                <p className="text-white">&nbsp; © Reserves all right</p>
+                <p className="text-white font-poppins">&nbsp; © Reserves all right</p>
             </div>
         </div>
     )
