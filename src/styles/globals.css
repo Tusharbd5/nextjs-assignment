@@ -134,6 +134,37 @@ a {
   border-radius: 20px;
 }
 
+.lower-banner-img {
+  width: 416px;
+  height: 496px;
+}
+
+.lower-banner-mesh {
+  width: 381px;
+  height: 440px;
+}
+
+.low-banner-rectangle {
+  width: 203px;
+  height: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 10px;
+}
+
+.poses-ellipse {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%);
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 60px;
+}
+
+.footer {
+  height: 50px;
+  background: #1C3764;
+}
+
 @media (max-width:952px) {
   .humbarger-menu {
     display: flex;
@@ -214,5 +245,41 @@ a {
     height: 80px;
     width: 80px;
 
+  }
+
+  .lower-banner-img {
+    width: 241px;
+    height: 287px;
+  }
+
+  .lower-banner-mesh {
+    width: 220px;
+    height: 254px;
+  }
+
+  .low-workout-shape-1 {
+    height: 40px;
+    width: 40px;
+  }
+
+  .low-workout-shape-2 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .low-banner-rectangle {
+    width: 118px;
+    height: 48px;
+    font-size: 10px;
+  }
+
+  .poses-ellipse {
+    width: 35px;
+    height: 35px;
+  }
+
+  .crucified-lw-banner-img {
+    width: 15.5px;
+    height: 17px;
   }
 }
