@@ -119,6 +119,21 @@ a {
   height: 434px;
 }
 
+.shape-info-rectangle {
+  height: 274px;
+  background: linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+  border-radius: 30px;
+}
+
+.poses-rectangle {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  opacity: 0.2;
+  backdrop-filter: blur(32px);
+  border-radius: 20px;
+}
+
 @media (max-width:952px) {
   .humbarger-menu {
     display: flex;
@@ -189,5 +204,15 @@ a {
   .learn-banner-btn {
     width: 125px;
     height: 40px;
+  }
+
+  .shape-info-rectangle {
+    height: 420px;
+  }
+
+  .poses-rectangle {
+    height: 80px;
+    width: 80px;
+
   }
 }
