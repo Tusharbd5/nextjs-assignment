@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function about() {
     return (
         <div className='mt-10 px-5 lg:px-0'>
-            <a className='bg-gray-500 px-3 py-2 text-white font-poppins text-bold rounded-md shadow-lg' href='http://localhost:3000/'>Home</a>
+            <a className='bg-gray-500 px-3 py-2 text-white font-poppins text-bold rounded-md shadow-lg' href='..'>Home</a>
             <div className='relative flex items-center justify-center'>
                 <Image className='rounded-full h-32 w-32 lg:h-80 lg:w-80 absolute z-10' src={picture} alt='Picture'></Image>
                 <div className='bg-sky-300 h-36 w-36 lg:h-80 lg:w-80 rounded-full shadow-md blur-md'></div>
