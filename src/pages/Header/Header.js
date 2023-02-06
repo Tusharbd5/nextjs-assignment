@@ -22,7 +22,7 @@ function MobileNav({ open, setOpen }) {
                     <a className="my-4 hover:text-red-500 font-poppins" href="#" >
                         Blog
                     </a>
-                    <a className="my-4 hover:text-red-500 font-poppins" href="#" >
+                    <a className="my-4 hover:text-red-500 font-poppins" href="routes/about" >
                         About Us
                     </a>
                     <button className="login-btn hover:bg-blue-700 text-white font-poppins">Login</button>
