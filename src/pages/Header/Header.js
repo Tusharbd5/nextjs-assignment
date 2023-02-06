@@ -6,7 +6,7 @@ function MobileNav({ open, setOpen }) {
         <section>
             <div className="flex flex-row items-center justify-around long-menu">
                 <div>
-                    <a className="font-bold my-4" href="http://localhost:3000" >
+                    <a className="font-bold my-4" href=".." >
                         <span className="logo ">Gym</span>
                         baran
                     </a>
@@ -33,7 +33,7 @@ function MobileNav({ open, setOpen }) {
             <div className={`items absolute top-0 right-0 p-5 rounded-3xl  bg-slate-200  transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter z-10`}>
 
                 <div className="flex flex-col justify-center items-center mt-6">
-                    <a className="text-2xl font-light text-red-500 my-2 font-poppins" href="#" >
+                    <a className="text-2xl font-light text-red-500 my-2 font-poppins" href=".." >
                         Home
                     </a>
                     <a className="text-2xl font-light my-2 hover:text-red-500 font-poppins" href="#" >
