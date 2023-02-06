@@ -178,6 +178,10 @@ a {
   background: #1C3764;
 }
 
+.fresh-color {
+  color: #6765F0;
+}
+
 @media (max-width:952px) {
   .humbarger-menu {
     display: flex;

@@ -20,7 +20,7 @@ export default function Banner() {
         <div className='mt-24'>
             <div className='flex items-center lg:justify-center flex-col lg:flex-row px-10'>
                 <div className='lg:w-1/2 lg:pl-32'>
-                    <h2 className='text-3xl lg:text-5xl lg:ml-36 leading-10'>Healthy in side <br></br><span><span className='text-sky-800 font-bold'>fresh</span> out side</span></h2>
+                    <h2 className='text-3xl lg:text-5xl lg:ml-36 leading-10'>Healthy in side <br></br><span><span className='fresh-color font-bold'>fresh</span> out side</span></h2>
 
                     <p className='lg:ml-36 text-justify mt-6 font-poppins text-base'>
                         Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.
